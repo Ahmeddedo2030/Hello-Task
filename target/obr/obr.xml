@@ -1,7 +1,7 @@
-<repository lastmodified='20250427070811.466'>
+<repository lastmodified='20250428030900.584'>
   <resource id='com.example.bamboo-command-task/1.0.0.SNAPSHOT' symbolicname='com.example.bamboo-command-task' presentationname='Custom Bamboo Task Plugin' uri='bamboo-command-task-1.0.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
     <description>This is Hello World.</description>
-    <size>4026</size>
+    <size>4088</size>
     <capability name='bundle'>
       <p n='symbolicname' v='com.example.bamboo-command-task'/>
       <p n='presentationname' v='Custom Bamboo Task Plugin'/>
@@ -13,6 +13,7 @@
       <p n='version' t='version' v='1.0.0'/>
     </capability>
     <require name='package' filter='(&amp;(package=com.atlassian.bamboo.build.logger))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.build.logger</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo.deployments.execution))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.deployments.execution</require>
     <require name='package' filter='(&amp;(package=com.atlassian.bamboo.task))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.task</require>
   </resource>
 </repository>

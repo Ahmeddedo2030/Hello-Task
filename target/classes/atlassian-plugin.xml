@@ -1,10 +1,1 @@
-<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
-    <plugin-info>
-       <description>${project.description}</description>
-        <version>${project.version}</version>
-        <vendor name="${project.organization.name}" url="${project.organization.url}" />
-    </plugin-info>
-    <taskType key="my-task" name="My Task" class="com.example.HelloWorld">
-    <description>A custom task that does something cool</description>
-  </taskType>
-</atlassian-plugin>
+<atlassian-plugin key="com.example.bamboo-command-task" name="Custom Bamboo Task Plugin" plugins-version="2"><plugin-info><description>This is Hello World.</description><version>1.0.0-SNAPSHOT</version><vendor name="${project.organization.name}" url="${project.organization.url}"/></plugin-info><taskType key="my-task" name="My Task" class="com.example.HelloWorld"><description>A custom task that does something cool</description><category>Custom</category></taskType></atlassian-plugin>

@@ -6,5 +6,6 @@
     </plugin-info>
     <taskType key="my-task" name="My Task" class="com.example.HelloWorld">
     <description>A custom task that does something cool</description>
+    <category>Custom</category>
   </taskType>
 </atlassian-plugin>
