@@ -45,6 +45,11 @@
     <version>${bamboo.version}</version>
     <scope>provided</scope>
 </dependency>
+<dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-osgi-javaconfig</artifactId>
+            <version>${osgi.javaconfig.version}</version>
+        </dependency>
     </dependencies>
 
    <!-- <build>
